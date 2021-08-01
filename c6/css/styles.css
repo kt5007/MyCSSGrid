@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.container{
+  display: grid;
+  /* grid-template-columns: repeat(4, 100px); */
+  /* ブラウザ幅の応じて自動的に列が増える */
+  /* 右側が空いているのが気になるのを治す */
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-rows: 100px 100px;
+
+}
+.box1 {
+  background: hsl(0, 60%, 60%);
+}
+
+.box2 {
+  background: hsl(60, 60%, 60%);
+}
+
+.box3 {
+  background: hsl(120, 60%, 60%);
+}
+
+.box4 {
+  background: hsl(180, 60%, 60%);
+}
+
+.box5 {
+  background: hsl(240, 60%, 60%);
+}
